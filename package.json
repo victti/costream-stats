@@ -1,0 +1,21 @@
+{
+  "name": "costream-stats",
+  "version": "1.0.0",
+  "description": "View count of costreams views on twitch using certain keywords on the stream title.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/app.ts",
+    "start": "ts-node --transpile-only src/app.ts"
+  },
+  "author": "victti",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@twurple/auth": "^7.2.0",
+    "dotenv": "^16.4.7"
+  }
+}
